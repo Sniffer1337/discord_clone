@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3446eb;
+    height: 100px;
+}
+.banners {
+    display: flex;
+    position: absolute;
+}
+
+.firstImg {
+    margin-left: 128px; 
+    margin-top: 54px;
+}
+
+.secondImg {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.thirdImg {
+    margin-left: 128px;
+    margin-top: 54px;
+}
+
+.fourthImg {
+    margin-left: 648px;
+    margin-top: 35px;
+}
+
+.midImg {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
