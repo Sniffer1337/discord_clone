@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./pictures/login.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.loginForm {
+    background-color: #222020;
+    min-width: 580px;
+    width: 784px;
+    height: 408px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+}
+
+.description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 128px;
+    top: 18px;
+    color: dimgray;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    left: 156px;
+    top: 18px;
+}
+
+input {
+    background-color: rgb(21, 21, 21);
+    margin-top: 8px;
+    width: 300px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 28px;
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+
+#message {
+    margin-top: 12px;
+    margin-left: 18px;
+    color: rgb(21, 255, 0); /* Set the color as needed */
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    height: 37px;
+    position: relative;
+    top: 78px;
+    right: 304px;
+    background-color: rgb(86, 106, 255);
+    color: white;
+    cursor: pointer;
+}
+
+label {
+    color: white;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+span {
+    color: red;
+}
+
+.forgot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 28px;
+}
+
+.register {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-top: 64px;
+    margin-left: 28px;
+}
+
+.register p {
+    color: rgb(111, 111, 111);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+}
+
+.qr {
+    position: absolute;
+    top: 150px;
+    margin-right: 200px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.withQr {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: azure;
+    position: relative;
+    top: 132px;
+    right: 190px;
+}
+
+#qrDesc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 250px;
+    right: 164px;
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(132, 132, 132);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Discord</title>
+</head>
+<body>
+    <div class="loginForm">
+        <div class="h1">
+            <h1>Welcome Back !</h1>
+        </div>
+        <div class="description">
+            <p>We're so excited to see you again !</p>
+        </div>
+        <form action="#" method="post">
+            <label for="Text">EMAIL OR PHONE NUMBER <span>*</span></label>
+            <input type="email" name="" id="email" required>
+            <label for="password">PASSWORD <span>*</span></label>
+            <input type="password" id="password" required>
+            <button type="button" onclick="login()">Log in</button>
+            <div id="message"></div>
+        </form>
+        <div class="forgot">
+            <a href="#">Forgot your password?</a>
+        </div>
+        <div class="register">
+            <p>Need an account? <a href="#">Register</a></p>
+        </div>
+    </div>
+    <div class="qr">
+        <a href="www.qr-code-generator.com/free-generator/?gclid=EAIaIQobChMIwPW61N2bgwMVdiwGAB2I4gzWEAAYASAAEgJHlPD_BwE&campaignid=9725198318&adgroupid=99974822872&cpid=8794173e-3373-43ee-aae4-c99e709be5f8&gad_source=1" border="0" style="cursor:default" rel="nofollow"></a><img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fdiscord.com&chs=180x180&choe=UTF-8&chld=L|2">
+        <p class="withQr">Log in with QR Code</p>
+        <p id="qrDesc">Scan this with the <b>Discord mobile app</b> to log in instantly.</p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
